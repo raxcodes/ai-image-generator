@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto:wght@300;500&display=swap');
+
+@import './header.module.css';
+@import './main.module.css';
+@import './footer.module.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+.btn {
+    background: linear-gradient(90deg, #05a8ff, #ff0095);
+    color: white;
+    /* Set text color to white or any contrasting color */
+    padding: 10px 50px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove border for a flat button */
+    border-radius: 20px;
+    /* Add border-radius for rounded corners */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    font-family: 'ADLaM Display', cursive;
+
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #E30C8A, #A8E0FF);
+    /* Reverse the gradient on hover */
+}

@@ -1,0 +1,41 @@
+.main{
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: rgb(19, 19, 19);
+    height:88vh;
+    width: 100%;
+}
+
+.ai-img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+.prompt{
+    background-color: rgb(0, 0, 0);
+    width: 512px;
+    display: flex;
+    align-items: center;
+    align-content:center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.prompt button{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    color: #eee;
+}
+#promptBar{
+    width: 500px;
+    height: 5vh;
+    background-color:  rgb(1, 1, 1);
+    color: white;
+    border: none;
+    outline: none; 
+    overflow: scroll;
+}
+#promptBar::placeholder{
+    color:magenta;
+}    

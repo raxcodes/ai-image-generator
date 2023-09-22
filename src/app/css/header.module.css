@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    font-family: 'ADLaM Display', cursive;
+    color: white;
+}
+
+.nav-bar {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+
