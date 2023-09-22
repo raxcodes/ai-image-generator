@@ -9,7 +9,7 @@ import { httpAgentOptions } from "../../next.config";
 
 const Main = () => {
   
-  const[img, setImage] = useState('')
+ 
 
   return (
     <div className="main">
@@ -31,7 +31,7 @@ const Main = () => {
         placeholder="write your prompt here..." 
         />
 
-        <button className="btn"><BsMagic />Genrate</button>
+        <button className="btn"><BsMagic />Generate</button>
       </div>
     </div>
 
